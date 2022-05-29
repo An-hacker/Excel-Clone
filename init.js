@@ -1,6 +1,6 @@
 let cellsContentDiv = document.querySelector(".cells-content");
 
-
+// cell formation
 function initCells(){
     let cellsContent = "<div class='top-left-cell'></div>";
     //top-row
@@ -31,6 +31,7 @@ function initCells(){
 
 initCells();
 
+// update the each value of the cells content
 let db;
 
 function initDb(){
